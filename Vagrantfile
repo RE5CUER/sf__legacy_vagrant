@@ -6,8 +6,8 @@ Vagrant.configure("2") do |config|
 
   #VirtualBox
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = "2048"    # Укажите объем памяти в MB
-    vb.cpus = 2           # Укажите количество процессоров
+    vb.memory = "2048"
+    vb.cpus = 2
   end
 
   # PostgreSQL
